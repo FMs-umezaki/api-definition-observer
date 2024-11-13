@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "api-definition-observer"
+version = "0.1.0"
+description = ""
+authors = ["umezaki <umezaki@fullmarks.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gitpython = "^3.1.43"
+openpyxl = "^3.1.5"
+pyyaml = "^6.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+batch-yaml-checker = 'api_definition_observer.model_definition_observer:observe_model_update'

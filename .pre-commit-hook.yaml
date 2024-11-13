@@ -1,0 +1,4 @@
+- id: api-definition-observer
+  name: api-definition-observer
+  entry: api-definition-observer
+  language: python
