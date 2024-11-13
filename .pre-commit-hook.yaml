@@ -1,4 +1,4 @@
-- id: api-definition-observer
-  name: api-definition-observer
-  entry: api-definition-observer
+- id: model-definition-observer
+  name: model-definition-observer
+  entry: model-definition-observer
   language: python

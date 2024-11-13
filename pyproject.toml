@@ -21,4 +21,4 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-batch-yaml-checker = 'api_definition_observer.model_definition_observer:observe_model_update'
+model-definition-observer = 'api_definition_observer.model_definition_observer:observe_model_update'
